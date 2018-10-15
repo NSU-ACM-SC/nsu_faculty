@@ -1,8 +1,8 @@
 # nsu_faculty
 
-> Scraps data from ece.northsouth.edu and finds desired faculty's information
+> Scraps data from ece.northsouth.edu and finds desired faculty's information.
 
-## python version
+## python version required
 3.x
 
 ## Dependencies
@@ -14,7 +14,7 @@
 - Clone the repo and `cd` into the directory.
 - Create a `virtualenv` named `venv` (install via pip) and activate it
 ```bash
-# macOs and Linux
+# macOS and Linux
 source venv/bin/activate
 ```
 ```bat
@@ -28,3 +28,6 @@ pip install -r requirements.txt
 ```bash
 python nsu_faculty.py
 ```
+
+## License
+MIT
